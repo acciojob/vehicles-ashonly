@@ -33,7 +33,7 @@ public class F1 extends Car {
             this.currentGear = 4;
         }else if(newSpeed >= 201 && newSpeed <= 250) {
             this.currentGear = 5;
-        }else if(newSpeed > 250 {
+        }else if(newSpeed > 250) {
             this.currentGear=6;
         }
         //for all other cases, change the gear accordingly
